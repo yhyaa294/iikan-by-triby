@@ -8,7 +8,6 @@ interface ThribyLogoProps {
 const ThribyLogo: React.FC<ThribyLogoProps> = ({ className = '', width = 200 }) => {
   // Skala relatif berdasarkan lebar yang diminta
   const height = width * 0.4; // Rasio aspek
-  const strokeWidth = width * 0.04;
 
   return (
     <div 

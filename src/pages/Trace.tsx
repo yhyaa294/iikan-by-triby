@@ -152,14 +152,13 @@ const Trace = () => {
                  <div className="w-full h-full relative">
                     <Scanner 
                         onScan={(result) => result[0] && processCode(result[0].rawValue, 'scan')}
-                        onError={(err) => {
+                        onError={(err: any) => {
                             // Only show error if it's a permission issue
                             if (err?.message?.includes('permission') || err?.message?.includes('device')) {
                                 setError("Mohon izinkan akses kamera untuk memindai QR Code.");
                                 setScanning(false);
                             }
                         }}
-                        components={{ audio: false }} 
                         styles={{
                             container: { width: '100%', height: '100%' },
                             video: { objectFit: 'cover' }

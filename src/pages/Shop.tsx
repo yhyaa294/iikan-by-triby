@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ShoppingBag, Filter, Star, Sparkles, X, Plus, Minus, Flame, ChefHat } from 'lucide-react';
+import { ShoppingBag, Filter, Star, Sparkles, X, ChefHat } from 'lucide-react';
 import { PRODUCTS, Product } from '../lib/data';
 import { useCart } from '../context/CartContext';
 
