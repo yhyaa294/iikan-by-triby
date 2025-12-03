@@ -9,6 +9,7 @@ import About from './pages/About';
 import AdminDashboard from './pages/AdminDashboard';
 import ProtectedRoute from './components/ProtectedRoute';
 import Checkout from './pages/Checkout';
+import OrderSuccess from './pages/OrderSuccess';
 import UserDashboard from './pages/UserDashboard';
 
 function App() {
@@ -21,6 +22,9 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/login" element={<Login />} />
         <Route path="/checkout" element={<Checkout />} />
+        <Route path="/order-success" element={<OrderSuccess />} />
+        
+        {/* Customer Dashboard */}
         <Route 
           path="/dashboard" 
           element={

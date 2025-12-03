@@ -84,7 +84,7 @@ Ingin mencoba menjalankan proyek ini di mesin lokal Anda? Ikuti langkah berikut:
 
 1.  **Clone Repository**
     ```bash
-    git clone [https://github.com/yhyaa294/iikan-by-triby.git](https://github.com/yhyaa294/iikan-by-triby.git)
+    git clone https://github.com/yhyaa294/iikan-by-triby.git
     cd iikan-by-triby
     ```
 
